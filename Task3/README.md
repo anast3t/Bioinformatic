@@ -14,12 +14,12 @@
 ## Обзор некоторых требований к отчету и ответ на них
 |Требование|Ответ
 |---|---
-|2 Скрипт на bash|`./shell_pipeline.sh`
-|3 Результат flagstat|`./flagstat.txt`
-|4 Скрипт разбора flagstat|`./flagstat_qc.py`
+|2 Скрипт на bash|`shell_pipeline.sh`
+|3 Результат flagstat|`flagstat.txt`
+|4 Скрипт разбора flagstat|`flagstat_qc.py`
 |5 Файлы|слишком большие, в гит не влезли
-|7 Пайплайновый helloworld|`./hellopipeline.py`
-|10 код пайплайна|`./pipeline3.py`
+|7 Пайплайновый helloworld|`hellopipeline.py`
+|10 код пайплайна|`pipeline3.py`
 
 Все остальное будет рассматриваться ниже
 
@@ -29,8 +29,8 @@
 0. На агенте должны быть предустановленны все пакеты, которые нельзя получить из PIP
 0. `wget fastq.. & fasta`
     - (c этим проблемы, поэтому файлы надо вручную выкачивать)
-0. `fastqc fastq..` ()
-0. `bwa index fasta` (/usr/bin/bwa)
+0. `fastqc fastq..`
+0. `bwa index fasta`
 0. `bwa mem -t [CORES] fasta fastq.. > output.sam`
 0. `samtools view -b output.sam > output.bam `
 0. `samtools flagstat output.bam`
