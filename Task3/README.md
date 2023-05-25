@@ -14,12 +14,12 @@
 ## Обзор некоторых требований к отчету и ответ на них
 |Требование|Ответ
 |---|---
-|2 Скрипт на bash|`./shell_pipeline.sh`
-|3 Результат flagstat|`./flagstat.txt`
-|4 Скрипт разбора flagstat|`./flagstat_qc.py`
+|2 Скрипт на bash|`shell_pipeline.sh`
+|3 Результат flagstat|`flagstat.txt`
+|4 Скрипт разбора flagstat|`flagstat_qc.py`
 |5 Файлы|слишком большие, в гит не влезли
-|7 Пайплайновый helloworld|`./hellopipeline.py`
-|10 код пайплайна|`./pipeline3.py`
+|7 Пайплайновый helloworld|`hellopipeline.py`
+|10 код пайплайна|`pipeline3.py`
 
 Все остальное будет рассматриваться ниже
 
